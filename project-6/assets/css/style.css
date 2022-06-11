@@ -1,0 +1,327 @@
+.section-1{
+	background: url("../images/hogwad1.jpg")  no-repeat fixed;
+		background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 70vh;
+	padding-top: 5rem;
+}
+
+
+.about-section-1{
+
+	background: url("../images/background1.jpg")  no-repeat fixed;
+	background-position: center;
+background-size: cover;
+
+padding-top: 5rem;
+}
+
+.about-section-1 .heading{
+	color: white;
+}
+.body-1{
+	background: url('../images/background.png') no-repeat fixed  rgba(0,0,0,.5);
+	background-position: center;
+	background-size: cover;
+	padding-top: 3rem;
+
+
+
+}
+.body-2{
+	background: url('../images/background.png') no-repeat fixed  rgba(0,0,0,.5);
+	background-position: center;
+	background-size: cover;
+	
+
+
+}
+.hr{
+	
+	border-top: 2px solid white !important;
+}	
+
+
+@keyframes fromRightAnim1{
+
+	0%{ left: 0%; opacity: 1; }
+	
+	30%{ left: 5%; opacity: 1; }
+	75%{ left: -20%; opacity: .4; }
+	100%{ left: -30%; opacity: 0; }
+}
+
+.carousel-item {
+    
+	 animation: fromRightAnim1 .6s ease-in 4s both;
+
+}
+
+
+.owl-carousel,.bx-wrapper{direction: ltr;}
+.owl-carousel .owl-item{direction: rtl;}
+
+
+
+
+
+
+
+/* Button */
+
+
+/* Pseudo elements for icons */
+
+
+
+
+.btn{
+	position: relative;
+	display: block;
+	color: white !important;
+
+	font-size: 14px;
+	font-family: "montserrat";
+	text-decoration: none;
+	
+	border: 2px solid #ff7675 !important;
+	padding: 0.3rem 1rem !important;
+	text-transform: uppercase;
+	overflow: hidden;
+	transition: .3s all ease;
+	border-radius: 2px !important;
+  }
+  .btn::before{
+	background: #ff7675;
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%) rotate(45deg);
+	z-index: -1;
+	transition: all 0.3s ease;
+  }
+  
+  
+.btn2::before{
+	width: 100%;
+	height: 0%;
+  }
+  .btn2:hover::before{
+	height: 200%;
+  }
+
+  .btn2:hover{
+	  color: white !important;
+  }
+ 
+  .button{
+	padding: .5rem 1rem !important;
+	background-color: #3b3b3b ;
+	color: white;
+	margin: .3rem .3rem;
+	transition: all .1s linear;
+
+  }
+  .button:hover{
+
+	background-color: #ff7675;
+  }
+  
+  
+
+
+/* Navbar Section start */
+
+.navbar {
+	margin: 0px !important;
+	padding: 0px !important;
+	background-color: #3B3B3B !important;
+	font-size: .85rem !important;
+	padding-left: 1px !important;
+	
+}
+
+
+.navbar .navbar-nav .nav-item {
+	border-right: .5px solid rgb(39, 37, 37);
+	border-left: .5px solid rgb(39, 37, 37);
+	padding: .8rem 1.1rem !important;
+	transition: all .2s linear;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	color: white;
+	text-transform: uppercase;
+	font-size: .82rem;
+
+}
+
+.navbar .navbar-nav .nav-item.active  {
+	color: white;
+	background-color: rgba(238, 82, 83,1.0);
+
+}
+.navbar .navbar-nav .nav-item:hover{
+	border-left: 1px solid rgb(255,255,255);
+	border-right: 1px solid rgb(255,255,255);
+	background-color: rgba(238, 82, 83,1.0);
+	
+}
+
+/* Navbar section end  */
+
+
+input{
+	
+	border-radius: 0 !important;
+}
+
+
+.forum h5 a{
+
+	font-weight: 380;
+	text-transform: uppercase;
+	text-decoration: none ;
+	color: black;
+	}
+	
+	
+.forum p{
+		 padding-top: .7rem;
+		 
+		font-size: .7rem;
+	
+	}
+
+
+
+.card{
+	border-radius: 0px !important;
+
+}
+.card-body{
+	padding-left: .3rem !important;
+	padding-right: .3rem !important;
+	
+}
+
+.card-carousel h5 a{
+
+font-weight: 380;
+text-transform: uppercase;
+text-decoration: none ;
+color: black;
+}
+
+
+.card-carousel p{
+	 padding-top: .7rem;
+	 
+	font-size: .7rem;
+
+}
+
+
+.pagination li a{
+color: white !important;
+background-color: #3b3b3b;
+border: 1px solid #2C2929;
+padding: .7rem 1rem !important;
+
+}
+
+.pagination li a:hover{
+	color: white !important;
+	background-color: #ff7675;
+	border: 1px solid white;
+	padding: .7rem 1rem !important;
+	
+	}
+
+
+.follower{
+	border-bottom: 1px solid white !important;
+}
+
+
+.follower1{
+	background-color: #74b9ff;
+}
+
+.follower2{
+	background-color: #6c5ce7;
+}
+.follower3{
+	background-color: #00cec9;
+}
+.follower4{
+	background-color: #d63031 ;
+}
+
+
+.ads-box img{
+	background-color: white;
+	
+	width: 100%;
+	height: 7rem;
+	margin-bottom: 1rem;
+	
+	
+}
+
+
+
+
+.box {
+   
+    position: relative;
+}
+.box div{
+    position: relative;
+}
+
+.box  label{
+    position: absolute;
+    font-size: 1.2rem;
+    left: 3rem;
+    top: 0.7rem;
+    position: absolute;
+    
+    padding: 0px 2px ;
+    pointer-events: none;
+    background-color: transparent;
+    transition: .2s;
+   
+}
+ input:focus ~ label, input.used ~ label,
+ textarea:focus ~ label, textarea.used ~ label  {
+    top: -1rem !important;
+    left: .5rem!important;
+
+  background-color:white;
+  padding: 0px 3px; 
+  
+   transform: scale(.8);
+}
+
+
+
+.box>input , .box>textarea{
+    left: 0;
+   
+    padding: .7rem 3rem;
+	
+   
+    border: 1.5px solid red;
+    border-radius: 0px;
+	color: white !important;
+
+}
+.box>input:focus , .box>textarea:focus {
+   
+    outline: none;
+   
+    filter: blur();
+     box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.7); 
+}

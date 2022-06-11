@@ -1,0 +1,176 @@
+/* Welcome css section start */
+
+.welcome-backgroud{
+    background: rgba(0,0,0,1) ;
+    width: 100%;
+    height: 100vh ;
+}
+.welcomeimg-circle{
+   clip-path: circle();
+   width: 15rem;
+   height: 20rem;
+   transition: all .5s linear;
+}
+.welcomeimg-circle:hover{
+    transform: rotate(360deg);
+}
+@media (max-width: 992px) { 
+    .welcome-backgroud{
+        height: 100%;
+    }
+}
+
+/* Welcome css section end */
+
+
+/* Index page sectoin start */
+
+
+.navbar a:hover{
+    color: #fff !important;
+}
+.navbar .navbar-nav li a {
+    padding: 0rem .7rem !important;
+}
+.navbar .navbar-nav li a:hover {
+    color: #fff;
+   
+}
+.carousel-item img{
+    height: 30rem;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: .8rem !important;
+    height: .8rem !important;
+}
+.carousel-indicators button{
+    border-radius: 50%;
+}
+
+.section-2-img{
+    background: url("../images/music.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 9rem 4rem;
+}
+
+.welcome-text-justify{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.navbar{
+    position: fixed !important;
+    width: 100%;
+ 
+}
+          
+
+.row>*{
+    padding-left: 0rem!important;
+    padding-right: 0rem!important;
+}
+.section-3-imgs{
+    overflow: hidden;
+}
+.section-3-img{
+    height: 20rem!important;
+    width: 100%;
+    transition: all .3s linear;
+  
+}
+.section-3-img:hover{
+    transform: scale(1.13);
+    
+}
+/* Index page section end */
+
+
+/* Connect page Section start */
+
+.connect-imgs{
+    overflow: hidden;
+}
+.connect-img{
+    transition: all .3s linear;
+    width: 20rem !important;
+    height: 15rem !important;
+}
+
+.connect-img:hover{
+    transform: scale(1.1);
+}
+
+/* Connect page Section End  */
+
+
+
+
+/* Support Page sectoin start */
+
+.card{
+
+    padding: 0rem  !important;
+    border-radius: 0rem !important;
+    transition: all .2s linear !important;
+}
+.card-header{
+    border-radius: 0rem !important;
+}
+
+/* contact Form start */
+
+
+.box {
+   
+    position: relative;
+}
+.box div{
+    position: relative;
+}
+
+.box  label{
+    position: absolute;
+    font-size: 1.2rem;
+    left: 3rem;
+    top: 0.7rem;
+    position: absolute;
+    
+    padding: 0px 2px ;
+    pointer-events: none;
+    background-color: #fff;
+    transition: .2s;
+   
+}
+ input:focus ~ label, input.used ~ label,
+ textarea:focus ~ label, textarea.used ~ label  {
+    top: -1rem !important;
+    left: .5rem!important;
+
+  background-color:white;
+  padding: 0px px; 
+  
+   transform: scale(.8);
+}
+
+
+
+.box>input , .box>textarea{
+    left: 0;
+   
+    padding: .7rem 3rem;
+   
+    border: 1.5px solid red;
+    border-radius: 0px;
+
+}
+.box>input:focus , .box>textarea:focus {
+   
+    outline: none;
+   
+    filter: blur();
+     box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.69); 
+}
+
+/* Contact Form End */
+/* Support Page Section End */

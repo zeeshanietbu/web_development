@@ -1,0 +1,98 @@
+/* section 1 start */
+
+.section-1{
+    background: url("../images/buildings.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 45rem;
+
+}
+
+/* Button */
+.btn {
+	border-radius:0rem !important;
+	border: 1px solid !important;
+	
+	cursor: pointer;
+	padding: 0.3rem 1rem !important;
+	
+	
+	text-transform: uppercase;
+	
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	
+	transition: all 0.3s;
+	
+}
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+
+
+
+
+
+.btn-11 {
+	overflow: hidden;
+
+}
+
+.btn-11:after {
+	width: 100%;
+	height: 0;
+	top: 50%;
+	left: 50%;
+	background-color: red;
+	opacity: 1;
+	transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+
+.btn-11:hover {
+	color: #ffff !important;
+	border: 1px black solid !important;
+	z-index: 1;
+}
+
+.btn-11:hover:after {
+	height: 260%;
+	opacity: 1;
+	z-index: -1;
+}
+
+
+/* navbar start */
+
+
+.navbar .navbar-nav li a {
+    color: aqua;
+}
+.navbar .navbar-nav li a:hover {
+    color: #fff;
+   
+}
+/* navbar end */
+
+/* section 1 end */
+
+/* Search section 2  start*/
+
+.search-section-2{
+	background-color: #5DBCD2;
+}
+
+/* Srearch section 2 end */
+
+
+
+.card .card-img-top{
+	width: 100%;
+	height: 10rem;
+}

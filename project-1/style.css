@@ -1,0 +1,193 @@
+.BackgroundTut{
+    background: url("images/monitor.jpg") no-repeat;
+    height: 45rem;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+hr{
+    border: 1px solid !important;
+}
+.vr{
+    border: 2px solid !important;
+}
+.BackgroundTut-courses{
+
+    background: url("images/technology-.jpg") no-repeat;
+    height: 27rem;
+    background-size: cover;
+    background-position: 0rem;
+    margin-bottom: 10rem;
+}
+.navbar-nav .nav-item .nav-link{
+    color: white;
+    font-size: 1.25rem;
+    margin:0 1rem;
+}
+
+.main-text{
+    display: grid;
+  
+    place-items: center;
+    
+    
+  color: white;
+  
+  align-items: center;
+  
+  
+  font-size: calc(1.375rem + 2vw);
+ 
+  margin-top: 10rem;
+ 
+}
+
+
+
+.main-text-heading{
+    background-color: rgba(0, 0, 0, .5);
+    padding: 2rem 4rem;
+    
+}
+.form1 {    
+    margin-top: 4rem !important;
+}
+
+.form1-background{
+    background-color: rgba(0, 0, 0, .5);
+    padding: 2.5rem 2rem;
+}
+.form2{    
+    margin-top: 4rem !important;
+   
+}
+.form2-background{
+    background-color: rgba(211, 84, 0,1.0);
+    padding: 0rem 4rem  ;
+    height: 18rem;
+}
+
+.form2-inner-background{
+    background-color: rgba(255, 255, 255,0.8);
+    padding: 2rem 0rem;
+    height: 8rem;
+   
+
+}
+
+.form3{    
+    margin-top: 4rem !important;
+    
+   
+}
+.form3-background{
+   
+    padding: 4rem 4rem  ;
+    
+    
+}
+.form3-heading-background{
+    
+  
+  padding: 1rem 0;
+}
+
+.btn-1{
+    border-radius: 0px !important;
+    height: 3rem;
+    
+
+}
+.btn-1:hover{
+    border: 1px white solid !important;
+    
+}
+.btn-2{
+    border-radius: 0px !important;
+    height: 2.5rem;
+    padding: 0rem 2rem;
+
+}
+.btn-2:hover{
+    border: 1px black solid !important;
+    
+}
+input{
+    border-radius: 0px !important;
+    
+    
+}
+
+.form-control{
+    padding: 0rem 1rem;
+}
+
+ input:focus{
+    border-radius: 0px !important;
+    box-shadow: 0px 2px 8px 3px white;
+    border: 2px solid blue;
+    
+    
+}
+
+.floatingInput{
+    padding: 0rem 1rem !important;
+}
+
+/* Second section start */
+
+
+.section-2-heading{
+    margin-top: 4rem;
+}
+/*  section section end*/
+
+
+
+
+
+
+/* Courses section start */
+.courses-post-images{
+    height: 25rem !important;
+    width: 100%;
+}
+
+/* Courses section end */
+
+/* Ebooks Section Start */
+
+.form4{
+    padding: 2rem;
+    
+}
+.form4-innerBackground{
+    padding: 2rem;
+    background-color: rgba(255, 255, 255,0.85);
+}
+/* Ebooks Section End */
+
+
+
+/* Coding example page started  */
+
+.card{
+    transition: all .2s linear;
+    padding-bottom: 1rem;
+}
+.card:hover{
+    transform: scale(1.1);
+    color: white;
+}
+.card:hover > .card-body{
+    background-color: rgba(232, 65, 24,0.6);
+    color: white;
+}
+.card-body{
+transition: all .3s linear;
+}
+/* End of coding example */
+
+
+

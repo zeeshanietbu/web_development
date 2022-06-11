@@ -1,0 +1,30 @@
+.background-img{
+    background:url("../images/laptop.jpg") no-repeat;
+    background-size: cover;
+    height: 44rem;
+    background-position: center;
+}
+
+
+.section-2{
+    background-image: linear-gradient(to right,rgb(117, 32, 71)30%, rgba(255, 71, 87,1.0));
+    color: white;
+    padding: 1rem ;
+}
+
+.card{
+
+    padding: 0rem  !important;
+    border-radius: 0rem !important;
+    transition: all .2s linear !important;
+}
+
+.card .card-img-top{
+  
+    height: 10rem;
+    
+}
+
+.card:hover{
+    box-shadow: 5px 5px 5px 7px #8888  ;
+}
