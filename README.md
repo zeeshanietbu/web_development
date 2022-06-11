@@ -1,3 +1,3 @@
-# Web_development_projects 
- each folder contains one project
+# Web_development
+ Each project  folder  contain different pages 
  
